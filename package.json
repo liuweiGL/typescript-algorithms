@@ -1,0 +1,33 @@
+{
+  "name": "typescript-algorithms",
+  "version": "1.0.0",
+  "description": "常用算法练习",
+  "main": "index.js",
+  "repository": "https://github.com/liuweiGL/typescript-algorithms.git",
+  "author": "liuweigl",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "yarn jest",
+    "lint": "eslint --quiet --cache --fix"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.2.0",
+    "@commitlint/config-angular": "^8.2.0",
+    "@types/jest": "^24.0.18",
+    "@typescript-eslint/eslint-plugin": "^2.3.0",
+    "@typescript-eslint/parser": "^2.3.0",
+    "debug": "^4.1.1",
+    "eslint": "^6.4.0",
+    "eslint-config-alloy": "^3.0.0",
+    "eslint-plugin-jest": "^22.17.0",
+    "husky": "^3.0.5",
+    "jest": "^24.9.0",
+    "lint-staged": "^9.2.5",
+    "prettier": "^1.18.2",
+    "supports-color": "^7.0.0",
+    "ts-jest": "^24.1.0",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.3"
+  }
+}
